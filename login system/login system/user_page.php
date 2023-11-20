@@ -2,7 +2,7 @@
 
 @include 'connect.php';
 
-error_reporting(0);
+error_reporting(E-ALL);
 session_start();
 
 if(!isset($_SESSION['user_name'])){
