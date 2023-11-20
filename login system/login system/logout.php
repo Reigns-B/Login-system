@@ -2,7 +2,7 @@
 
 @include 'connect.php';
 
-error_reporting(0);
+error_reporting(E_ALL);
 session_start();
 session_unset();
 session_destroy();
